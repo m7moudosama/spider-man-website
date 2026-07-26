@@ -73,31 +73,13 @@ ul a:hover{
     padding: 20px 0;
 }
 @media (max-width: 768px) {
-  html {
-    font-size: 13px; 
-  }
-
-  body {
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-  }
-
   header {
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
   }
-
   header ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
-  }
-
-  .content {
-    margin: auto 0;
+    gap: 10px;
   }
 }
